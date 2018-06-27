@@ -1,0 +1,30 @@
+.header {
+  background-image: url(../img/header.png);
+}
+
+.white-phone {
+  color: #fff;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.header__top {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__top a {
+  color: #fff;
+  display: none;
+}
+
+.logo__text {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+body {
+  display: none;
+}

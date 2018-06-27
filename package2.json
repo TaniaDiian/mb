@@ -1,0 +1,24 @@
+{
+  "name": "MB",
+  "version": "1.0.0",
+  "main": "gulp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-plumber-notifier": "0.0.3",
+    "gulp-pug": "^4.0.1",
+    "gulp-server-livereload": "^1.9.2",
+    "node-notify": "^1.0.0"
+  },
+  "devDependencies": {
+    "gulp-sass": "^4.0.1"
+  },
+  "description": ""
+}

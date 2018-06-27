@@ -1,0 +1,9 @@
+-var crumbs = ['главная', 'Контакты']
+ul.breadcrumps
+  each crumb, index in crumbs
+    -if(index<crumbs.length-1)
+      li
+        a(href="#")=crumb
+      li /
+    -else 
+      li: span=crumb

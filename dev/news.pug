@@ -1,0 +1,15 @@
+doctype
+html
+  include chunks/head
+body
+  include chunks/header
+  div.wraper
+    .row
+      include chunks/sidebar
+      .col-tablet-3-4
+        include chunks/breakchunks
+        .pagetitle новости
+        include chunks/pagination
+        include chunks/newsSidebar
+        include chunks/pagination
+  include chunks/footer

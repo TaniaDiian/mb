@@ -1,0 +1,11 @@
+.wraper  
+  .clearfix
+    -var catalog = ['листовая продукция','Фотоальбомы','Буклеты','Брошюры',' Визитки','Календари', 'Конверты', 'Папки', 'Наклейки, этикетки', 'Самокопиры']
+  .clearfix
+    each item, index in catalog
+      .col-tablet-1-4
+        a(href="#").product
+          .product__img.product__transperent__img
+            img(src="img/catalog-"+(index+1)+".png" alt="")
+          .product__text.product__text__transperent
+            |#{item}

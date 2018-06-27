@@ -1,0 +1,23 @@
+.sidebar.col-tablet-1-4 
+  .sidebar__nav
+    .sidebar__title ПРОИЗВОДСТВО
+    - 
+      var sidebar_nav ={
+        "ЦИФРОВОЕ" : ['link 1', 'link 2',  'link 3', 'link 4'],
+        "ОФСЕТНОЕ " :['link 1', 'link 2',  'link 3'],
+        "ШЕЛКОГРАФИЯ " : ['link 1', 'link 2',  'link 3', 'link 4'],
+        "ПЕРЕМЕННЫЕ ДАННЫЕ, ШТРИХ-КОДИРОВАНИЕ" : ['link 1', 'link 2',  'link 3', 'link 4'],
+        "ОТДЕЛОЧНОЕ": ['link 1', 'link 2' ], 
+      }
+    ul
+      each item, key in sidebar_nav
+        li
+          span=key
+          div
+            ul
+              each value in item
+                li
+                  a(href="#")=value
+
+  .sidebar__news
+    .sidebar__title новости

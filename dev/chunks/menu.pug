@@ -1,0 +1,13 @@
+div.wraper
+    ul.menu
+      -var menu = ['Главная','каталог','Услуги','Производство','Новости','Поддержка','Технологии', 'Контакты']
+        each item in menu
+          li
+            a(href='#')
+              span(class='menu-open') 
+                span=item
+        .search-box(data-close-missClick)
+          .search-icon
+          //- .search-box__form
+          //-   input(type="text")
+          //-   button.search-icon
